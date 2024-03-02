@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- loading="lazy" ==>helps us in saving our loading time  -->
+    <img
+      src="ferrari.webp"
+      alt="Ferrari pic "
+      loading="lazy"
+      height="300"
+      width="300"
+    />
+
+    <!-- controls ==> will help us to control the playing of music in our web like play stop forward backward -->
+    <!-- ============================Way1======================== -->
+
+    <audio controls src="audioMusic.mp3"></audio>
+
+    <!-- ============================Way2======================== -->
+    <audio controls>
+      <source src="audioMusic.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- ============================Way1======================== -->
+
+    <video src="natureVid.mp4" controls height="400px" width="400px"></video>
+
+    <!-- ============================Way2======================== -->
+    <video controls height="300" width="300">
+      <source src="natureVid.mp4" type="video/mp4" />
+    </video>
+
+    <!-- ============================================USe of iFrame============================================ -->
+    <iframe
+      src="https://www.youtube.com/embed/H1zGSNC6bNI"
+      frameborder="0"
+    ></iframe>
+    <br /><br />
+    <iframe
+      src="../Project2/Project2Practise.html"
+      frameborder="0"
+      height="500"
+      width="800"
+    ></iframe>
+  </body>
+</html>

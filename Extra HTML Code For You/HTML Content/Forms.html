@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <form action=""></form> ==. is used to make a form to interact with user to take input in forms we use <label for=""></label> and <input type="text"> tags <button></button> -->
+
+    <!-- <input type="text" id="name"> ==> is used to take input from user type is basically we can take input in the form of text,checkbox, etc so must set a type After this we must have to set a unique id so that we can connect it with the label  In input input may be in : 1)text 2)radio 3)checkbox 4)Date-->
+
+    <!-- <label for="name">Enter your name </label> ==> label is basically used to show a message to user and it has a for attribute which must be same as the id of the input   -->
+
+    <!-- placeholder attribute is used in input textfields to clarify what u want from user like username or email leaves no confusion -->
+
+    <!-- =======================================Form 1 ============================= -->
+    <!-- 
+  <form>
+    <label for="name">Enter Your Name</label>
+    <input type="text" id="name" placeholder="Enter Last Name">
+
+    <br>
+    <br>
+
+    <label for="Age">Enter your Age</label>
+    <input type="text" id="Age" placeholder="Enter Age in integer">
+
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+
+
+  </form> -->
+
+    <!-- =========================Tags can be used in Forms =====================-->
+
+    <!-- <input type="text">       //to take input in different forms 
+  <textArea></textArea>  ==?To take input multiple lines input 
+  <label for=""></label>==>to clarify things 
+  <fieldset></fieldset> ==> to group related items like Male,Female,Other
+  <legend></legend> ==> used to add captions to fieldset Like Gender
+  <select name="" id=""></select>==>dropdown Menu
+  <Option></Option>  ==>to add option is Menu  
+  <button></button> ==> to make a button  -->
+    <!-- 
+
+  <label for="DateSelector">Choode Birth date </label>
+  <input type="date" id="DateSelector">
+
+  <br>
+  <br>
+  <label for="selector">Select Your Fav dish</label>
+  <select name="Dishes" id="selector">
+    <option value="alo bhujia">Alo bhujia</option>
+    <option value="korma">Korma</option>
+    <option value="qabli Pulao">Qabli Pulao</option>
+  </select>
+
+  <br>
+  <br>
+  <button>Man hun Button</button>
+
+  <br>
+  <br>
+
+  <label for="textarea1">Enter feedack here </label>
+  <textarea name="textArea" id="textarea1" cols="30" rows="10" placeholder="Enter text here..."></textarea> -->
+
+    <!-- fieldset grouped all my content in a rectangular box and legend will give him caption -->
+    <fieldset>
+      <legend>Html Dummy Here</legend>
+
+      <label for="DateSelector">Choode Birth date </label>
+      <input type="date" id="DateSelector" />
+
+      <br />
+      <br />
+      <label for="selector">Select Your Fav dish</label>
+      <select name="Dishes" id="selector" multiple>
+        <option value="alo bhujia">Alo bhujia</option>
+        <option value="korma">Korma</option>
+        <option value="qabli Pulao">Qabli Pulao</option>
+      </select>
+
+      <br />
+      <br />
+      <button>Man hun Button</button>
+
+      <br />
+      <br />
+
+      <label for="textarea1">Enter feedack here </label>
+      <textarea
+        name="textArea"
+        id="textarea1"
+        cols="30"
+        rows="10"
+        placeholder="Enter text here..."
+      ></textarea>
+    </fieldset>
+  </body>
+</html>
