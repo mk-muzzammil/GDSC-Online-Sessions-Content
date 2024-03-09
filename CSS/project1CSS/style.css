@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navContainer {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 2px solid red;
+}
+span {
+  color: white;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+ul li a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+.hereoSection {
+  background-color: darkblue;
+  background-image: url("images/hero_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  padding: 5rem;
+  width: 100%;
+}
+.MusicSection {
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+.primaryheading {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  margin: 1rem;
+}
+.secondaryheading {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 1rem;
+}
+.primaryPara {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  margin: 1rem;
+}
+.primaryButton {
+  background-color: red;
+  color: white;
+  /* padding: 16px; */
+  padding: 10px 20px;
+  /* padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.primaryButton:hover {
+  background-color: lightcoral;
+  color: white;
+}
