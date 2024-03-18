@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: line-through;
+  border-style: solid;
+  border-width: 1px;
+  text-transform: capitalize;
+  word-spacing: 50px;
+  text-shadow: 15px 15px 10px blue;
+}
+div {
+  border: 1px solid red;
+  height: 300px;
+  margin: 20px;
+  background-image: url("07020.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+/* background-position: bottom right;
+  background-attachment: scroll;
+} */
+.container {
+  width: 100%;
+  overflow: hidden; /* Clearfix to contain floated elements */
+}
+
+.left-column {
+  float: left; /* Float the left column to the left */
+  width: 50%; /* Take up half of the container width */
+}
+
+.right-column {
+  float: right; /* Float the right column to the right */
+  width: 50%; /* Take up half of the container width */
+}
